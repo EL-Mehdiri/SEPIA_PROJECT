@@ -159,6 +159,12 @@ body {
   color: rgba(250, 245, 245, 0.645);
 }
 
+@media (max-width:1200px) {
+  .icon-holder .number {
+    font-size: 12rem;
+  }
+}
+
 .icon-holder .icon {
   color: black;
 }
