@@ -36,6 +36,7 @@
   cursor: pointer;
 }
 
+
 .anime:hover .arrow {
   transform: translateX(15%);
   animation: anime 1.5s ease-in infinite;
@@ -45,14 +46,17 @@
 @keyframes anime {
   0% {
     transform: translateX(0);
+    opacity: 0;
   }
 
   50% {
     transform: translateX(30px);
+    opacity: 1;
   }
 
   100% {
     transform: translateX(0);
+    opacity: 0;
   }
 }
 
@@ -135,7 +139,7 @@ body {
 /* Start Landing */
 .landing {
   background-color: var(--dark);
-  min-height: calc(100vh - 72px);
+  min-height: calc(100vh);
   display: grid;
   place-items: center;
   align-content: center;
@@ -183,8 +187,8 @@ body {
 
 }
 
-.icon-holder .number {
-  font-size: 32rem;
+.number {
+  font-size: 28rem;
   color: rgba(250, 245, 245, 0.645);
 }
 
@@ -299,9 +303,13 @@ body {
 }
 
 /* End Subscribe */
-
 .news {
   min-height: 80vh;
+}
+
+.newss {
+  min-height: 100vh;
+  background: url(../imgs/2.jpg);
 }
 
 /* contact  */
@@ -388,10 +396,4 @@ body {
   transform: translateX(0) rotate(0deg);
 
 
-}
-
-@media(prefers-reduced-motion) {
-  .hidden {
-    transition: none;
-  }
 }
