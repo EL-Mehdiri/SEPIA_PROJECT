@@ -64,6 +64,12 @@
 
 /* ////////////////////// */
 
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 li {
   list-style: none;
 }
@@ -139,7 +145,7 @@ body {
 /* Start Landing */
 .landing {
   background-color: var(--dark);
-  min-height: calc(100vh);
+  min-height: calc(20vh);
   display: grid;
   place-items: center;
   align-content: center;
