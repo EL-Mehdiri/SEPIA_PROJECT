@@ -15,47 +15,49 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container">
-      <a class="navbar-brand mb-2" href="#">
-        <img src="./imgs/logo.svg" alt="" />
+  <nav class="navbar navbar-expand-lg pt-5">
+    <div class="container d-flex align-items-center">
+      <a class="navbar-brand mb-3" href="#">
+        <img src="../imgs/logo.svg" alt="" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
         aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa-solid fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="main">
-        <ul class=" p-3 navbar-nav ms-auto mb-2 m-lg-auto">
+      <div class="collapse navbar-collapse d-flex align-items-center" id="main">
+        <ul class=" p-3 navbar-nav ms-auto  m-lg-auto d-lg-flex gap-3">
           <li class="nav-item">
-            <a class="btn rounded-pill  nav-link p-2 p-lg-3 active" aria-current="page" href="">Home</a>
+            <a class="btn rounded-pill  nav-link ps-lg-3 pe-lg-3 active " aria-current="page"
+              href="./template/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link p-2 p-lg-3" href="./template/about.html">About</a>
+            <a class="nav-link p-2 ps-lg-3 pe-lg-3 " href="./template/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link p-2 p-lg-3" href="./template/services.html">Services</a>
+            <a class="nav-link p-2 ps-lg-3 pe-lg-3  " href="./template/services.html">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link p-2 p-lg-3" href="./template/gallery.html">Gallery</a>
+            <a class="nav-link p-2 ps-lg-3 pe-lg-3 " href="./template/gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link p-2 p-lg-3" href="./template/contact.html">Contact</a>
+            <a class="nav-link p-2 ps-lg-3 pe-lg-3 " href="#footer">Contact</a>
           </li>
         </ul>
 
-        <a class="btn" href="#"><img src="./imgs/Group 2.png" alt=""></a>
+        <a class="btn btn-light rounded-pill   px-3" href="./template/contact.html">Get in touch</a>
+
       </div>
     </div>
   </nav>
 
-  <div class="landing hidden ">
+  <div class="landing  ">
     <div class="container ">
       <div class="col-6 text-light" style="bottom: 10rem;position: absolute;">
         <img class="anim pt-5" src="./imgs/Arrow.png" alt="">
       </div>
     </div>
   </div>
-  <div class="news hidden  d-lg-flex ">
+  <div class="news   d-lg-flex ">
     <div class=" map  " style="  display: grid;
     place-items: center;
     align-content: center;">
@@ -70,7 +72,7 @@
     </div>
     <img src="./imgs/1.jpg" class="w-lg-50 w-100" alt="">
   </div>
-  <div class=" bg-white hidden text-center ">
+  <div class=" bg-white  text-center ">
     <div class=" ">
       <div class="col-6 m-auto" style="padding-block: 9rem;">
         <h1>Notre Portefeuille</h1>
@@ -82,7 +84,7 @@
     </div>
   </div>
 
-  <div class="container hidden note">
+  <div class="container  note">
     <div class="d-lg-flex gap-5 my-5">
       <div class="one pe-5 pb-5  border-end ">
         <div>
@@ -101,7 +103,7 @@
         <div class="pt-5 anime"><a href="./template/about.html">More Details <img class="ps-5 arrow"
               src="./imgs/Arrow 6.png" alt=""></a></div>
       </div>
-      <div class="one hidden ps-5 ">
+      <div class="one  ps-5 ">
         <div>
           <div class="position-relative  pb-5">
             <i class="fa-solid fa-0  number"></i>
@@ -123,7 +125,7 @@
       <div class=" border-top p-2 me-3" style="width: 80%;"></div>
     </div>
     <div class="d-lg-flex gap-5">
-      <div class="one hidden pe-5 pb-5 pt-5 border-end  ">
+      <div class="one  pe-5 pb-5 pt-5 border-end  ">
         <div>
           <div class="position-relative  pb-5">
             <i class="fa-solid fa-0  number"></i>
@@ -138,7 +140,7 @@
         </p>
         <div class="pt-5 anime ">More Details <img class="ps-5 arrow" src="./imgs/Arrow 6.png" alt=""></div>
       </div>
-      <div class="one hidden  pe-5 pb-5 pt-5">
+      <div class="one   pe-5 pb-5 pt-5">
         <div>
           <div class="position-relative  pb-5">
             <i class="fa-solid fa-0  number"></i>
@@ -158,7 +160,7 @@
     </div>
 
   </div>
-  <div class="logos text-light hidden py-5 text-center">
+  <div class="logos text-light  py-5 text-center">
     <div class="container ">
       <h1>Nous sommes fiers d'avoir collaboré avec une diversité<br>
         de clients satisfaits, provenant de différents secteurs tels que l'agriculture, l'industrie, les municipalités
@@ -179,10 +181,10 @@
       </div>
     </div>
   </div>
-  <div class="footer pt-5 pb-5 hidden  text-center text-md-start">
+  <div id="footer" class="footer pt-5 pb-5   text-center text-md-start">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 hidden col-lg-4">
+        <div class="col-md-6  col-lg-4">
           <div class="info mb-5">
             <img src="./imgs/logo.svg" alt="" class="mb-4" />
             <p class="mt-5">
@@ -192,7 +194,7 @@
 
           </div>
         </div>
-        <div class="col-md-6 hidden mr-5 col-lg-2">
+        <div class="col-md-6  mr-5 col-lg-2">
           <div class="links">
             <h5 class="pb-5">Pages</h5>
             <ul class="list-unstyled lh-lg ">
@@ -204,7 +206,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-6 hidden mr-5 col-lg-2">
+        <div class="col-md-6  mr-5 col-lg-2">
           <div class="links">
             <h5 class="pb-5">Contact
             </h5>
@@ -214,7 +216,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-6 hidden pr-5 col-lg-4">
+        <div class="col-md-6  pr-5 col-lg-4">
           <div class="contact">
             <h5 class="pb-5">Follow us</h5>
             <ul class="d-flex list-unstyled gap-3">
